@@ -9,10 +9,12 @@ import {Route, Switch} from 'react-router-dom'
 function App() {
   return (
     <>
-    <Route exact path="/" component={Home}/>
-    <Route path="/rooms/" component={Rooms}/>
-    <Route path="/singleroom/" component={SingleRoom}/>
-    <Route path="/error/" component={Error}/>                                                                              
+    <Switch>
+      <Route exact path="/" component={Home}/>
+      <Route path="/rooms/" component={Rooms}/>
+      <Route path="/rooms/:slug" component={SingleRoom}/>
+      <Route component={Error}/>                                                                              
+    </Switch>
     </>
   );
 }
