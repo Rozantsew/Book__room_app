@@ -25,17 +25,17 @@ class Navbar extends Component {
                         <button 
                             type="button" 
                             className="nav-btn"
-                            onClick={this.handleToggle }
+                            onClick={this.handleToggle}
                         >
                             <FaAlignRight className="nav-icon"/>
                         </button>
                     </div>
                     <ul className={this.state.isOpen?"nav-links show-nav" : "nav-links"}>
                         <li>
-                           <Link to="/home">Home</Link> 
+                           <Link to="/">Home</Link> 
                         </li>
                         <li>
-                            <Link to="/rooms">Rooms</Link>
+                            <Link to="rooms">Rooms</Link>
                         </li>
                     </ul>
                 </div>
