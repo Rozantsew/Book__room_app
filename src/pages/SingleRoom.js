@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const SingleRoom = () => {
-    return (
-        <div>
-            Hellog from single room
-        </div>
-    )
-}
+  return <div>Hellog from single room</div>;
+};
 
-export default SingleRoom
+export default SingleRoom;
