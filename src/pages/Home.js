@@ -4,6 +4,7 @@ import Banner from "../components/banner/Banner";
 import { Link } from "react-router-dom";
 import Services from "../components/services/Services";
 import FeaturedRooms from "../components/featuredRooms/FeaturedRooms";
+import { SimpleButton } from "../components/hero/StyledHero";
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
           <Link to="/rooms" className="btn-primary">
             Check out
           </Link>
+          <SimpleButton>
+            some simple button
+          </SimpleButton>
         </Banner>
       </Hero>
       <Services />
