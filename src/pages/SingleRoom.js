@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import defaultBcg from "../images/room-1.jpeg";
-import Hero from "../components/hero/Hero";
 import Banner from "../components/banner/Banner";
 import { Link } from "react-router-dom";
 import { RoomContext } from "../context/context";
