@@ -46,11 +46,11 @@ export default function RoomsFilter({ rooms }) {
 
   return (
     <section className="filter-container">
-      <Title title="search rooms" />
+      <Title title="Filtruj pokoje" />
       <form className="filter-form">
         {/* select type */}
         <div className="form-group">
-          <label htmlFor="type">room type</label>
+          <label htmlFor="type">typy pokoi</label>
           <select
             name="type"
             id="type"
@@ -64,7 +64,7 @@ export default function RoomsFilter({ rooms }) {
         {/* end select type */}
         {/*guests*/}
         <div className="form-group">
-          <label htmlFor="type">Guests</label>
+          <label htmlFor="type">Goście</label>
           <select
             name="capacity"
             id="capacity"
@@ -79,7 +79,7 @@ export default function RoomsFilter({ rooms }) {
         {/* room price */}
 
         <div className="form-group">
-          <label htmlFor="price">room price ${price}</label>
+          <label htmlFor="price">Cena Pokoju {price}zł</label>
           <input
             type="range"
             name="price"
@@ -94,7 +94,7 @@ export default function RoomsFilter({ rooms }) {
         {/* end of room price */}
         {/* size */}
         <div className="form-group">
-          <label htmlFor="size">room size</label>
+          <label htmlFor="size">Rozmiar Pokoju m²</label>
           <div className="size-inputs">
             <input
               type="number"
@@ -125,7 +125,7 @@ export default function RoomsFilter({ rooms }) {
               checked={breackfast}
               onChange={handleChange}
             />
-            <label htmlFor="breakfast">breackfast</label>
+            <label htmlFor="breakfast">Śniadanie</label>
           </div>
           <div className="single-extra">
             <input
@@ -135,7 +135,7 @@ export default function RoomsFilter({ rooms }) {
               checked={pets}
               onChange={handleChange}
             />
-            <label htmlFor="breakfast">pets</label>
+            <label htmlFor="breakfast">Pupile</label>
           </div>
         </div>
         {/* end of extras */}

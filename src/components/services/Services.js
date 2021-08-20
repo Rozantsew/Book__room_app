@@ -7,27 +7,23 @@ export default class Services extends Component {
     services: [
       {
         icon: <FaCocktail />,
-        title: "Free cocktails",
-        info:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-      },
-      {
-        icon: <FaHiking />,
-        title: "Endless Hiking",
-        info:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+        title: "Drinki",
+        info: "Pierwszy drink w barze za darmo, przyjdź i baw się dobrze...",
       },
       {
         icon: <FaShuttleVan />,
-        title: "Free shuttle",
-        info:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+        title: "Wygodny dojazd",
+        info: "Wybieramy lokalizacje które pozwalają na wygodny dojazd",
+      },
+      {
+        icon: <FaHiking />,
+        title: "Wypożuczalnia sprzetu",
+        info: "Najleprzy sprzęt do wynajęcia na miejscu w najleprzych cenach",
       },
       {
         icon: <FaBeer />,
-        title: "Strongest Beer",
-        info:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+        title: "Domowe Piwo",
+        info: "Oferujemy najwyższej jakości piwa z naturalnych produktów",
       },
     ],
   };

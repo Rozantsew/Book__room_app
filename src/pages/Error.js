@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 export default function Error() {
   return (
     <Hero>
-      <Banner title="Page 404" subtitle="This page does't exist">
+      <Banner title="Strona 404" subtitle="Strona której szukasz nie istnieje">
         <Link to="/" className="btn-primary">
-          Return home
+          Powrót do strony głównej
         </Link>
       </Banner>
     </Hero>

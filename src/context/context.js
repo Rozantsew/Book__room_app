@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import Client from "../Contenful";
 
-Client.getEntries({
-  content_type: "bookRoomContent",
-}).then((response) => console.log(response.items[0]))
-
 const RoomContext = React.createContext();
 
 class RoomProvider extends Component {
@@ -33,33 +29,30 @@ class RoomProvider extends Component {
       });
 
       let rooms = this.formatData(response.items);
-      let featuredRooms = rooms.filter((room) => room.featured === true);
+      // let featuredRooms = rooms.filter((room) => room.featured === true);
       let maxPrice = Math.max(...rooms.map((item) => item.price));
       let maxSize = Math.max(...rooms.map((item) => item.size));
       this.setState({
         rooms,
-        featuredRooms,
+        featuredRooms: rooms,
         sortedRooms: rooms,
         loading: false,
         price: maxPrice,
         maxSize: maxSize,
       });
-      console.log(response.items)
-
     } catch (error) {
       console.log(error);
     }
   };
 
   componentDidMount() {
-    this.getData()
+    this.getData();
   }
 
   formatData(items) {
     let tempItems = items.map((item) => {
       let id = item.sys.id;
       let images = item.fields.images.map((image) => image.fields.file.url);
-
       let room = { ...item.fields, images: images, id };
       return room;
     });
