@@ -1,6 +1,6 @@
-## Żeby zobaczyć stonkę kliknij poniżej
+## Żeby zobaczyć stonkę kliknij poniżej  ⬇
 
-<a href="https://rozantsew.github.io/Book__room_app/">Zobacz strone ⬇</a>
+<a href="https://rozantsew.github.io/Book__room_app/">Zobacz strone</a>
 
 #
 #
