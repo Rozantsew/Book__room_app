@@ -3,15 +3,15 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter as Router } from "react-router-dom";
 import { RoomProvider } from "./context/context";
+import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
     <RoomProvider>
-      <Router>
+      <HashRouter>
         <App />
-      </Router>
+      </HashRouter>
     </RoomProvider>
   </React.StrictMode>,
   document.getElementById("root")

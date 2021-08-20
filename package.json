@@ -1,6 +1,6 @@
 {
-  "homepage": "https://rozantsew.github.io/hotel-reservation-app",
   "name": "hotel-reservation-app",
+  "homepage": "https://rozantsew.github.io/hotel-reservation-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
