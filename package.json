@@ -1,6 +1,6 @@
 {
   "homepage": "https://rozantsew.github.io/Book__room_app/",
-  "name": "Book__room_app",
+  "name": "book-room-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
