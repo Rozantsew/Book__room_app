@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fc124da.chunk.css",
-    "main.js": "/static/js/main.4375a903.chunk.js",
-    "main.js.map": "/static/js/main.4375a903.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.547e07b7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.547e07b7.js.map",
-    "static/js/2.49cb1731.chunk.js": "/static/js/2.49cb1731.chunk.js",
-    "static/js/2.49cb1731.chunk.js.map": "/static/js/2.49cb1731.chunk.js.map",
-    "static/js/3.55d69ae9.chunk.js": "/static/js/3.55d69ae9.chunk.js",
-    "static/js/3.55d69ae9.chunk.js.map": "/static/js/3.55d69ae9.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.2fc124da.chunk.css.map": "/static/css/main.2fc124da.chunk.css.map",
-    "static/js/2.49cb1731.chunk.js.LICENSE.txt": "/static/js/2.49cb1731.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/room-2.2ef40efe.jpeg",
-    "static/media/loading-arrow.dd29210f.gif": "/static/media/loading-arrow.dd29210f.gif",
-    "static/media/logo.9dcb348e.svg": "/static/media/logo.9dcb348e.svg",
-    "static/media/room-1.05b90599.jpeg": "/static/media/room-1.05b90599.jpeg"
+    "main.css": "/Book__room_app/static/css/main.9e2406ba.chunk.css",
+    "main.js": "/Book__room_app/static/js/main.20420baf.chunk.js",
+    "main.js.map": "/Book__room_app/static/js/main.20420baf.chunk.js.map",
+    "runtime-main.js": "/Book__room_app/static/js/runtime-main.af7c8f9a.js",
+    "runtime-main.js.map": "/Book__room_app/static/js/runtime-main.af7c8f9a.js.map",
+    "static/js/2.c2deaa5b.chunk.js": "/Book__room_app/static/js/2.c2deaa5b.chunk.js",
+    "static/js/2.c2deaa5b.chunk.js.map": "/Book__room_app/static/js/2.c2deaa5b.chunk.js.map",
+    "static/js/3.55d69ae9.chunk.js": "/Book__room_app/static/js/3.55d69ae9.chunk.js",
+    "static/js/3.55d69ae9.chunk.js.map": "/Book__room_app/static/js/3.55d69ae9.chunk.js.map",
+    "index.html": "/Book__room_app/index.html",
+    "static/css/main.9e2406ba.chunk.css.map": "/Book__room_app/static/css/main.9e2406ba.chunk.css.map",
+    "static/js/2.c2deaa5b.chunk.js.LICENSE.txt": "/Book__room_app/static/js/2.c2deaa5b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Book__room_app/static/media/room-2.2ef40efe.jpeg",
+    "static/media/loading-arrow.dd29210f.gif": "/Book__room_app/static/media/loading-arrow.dd29210f.gif",
+    "static/media/logo.9dcb348e.svg": "/Book__room_app/static/media/logo.9dcb348e.svg",
+    "static/media/room-1.05b90599.jpeg": "/Book__room_app/static/media/room-1.05b90599.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.547e07b7.js",
-    "static/js/2.49cb1731.chunk.js",
-    "static/css/main.2fc124da.chunk.css",
-    "static/js/main.4375a903.chunk.js"
+    "static/js/runtime-main.af7c8f9a.js",
+    "static/js/2.c2deaa5b.chunk.js",
+    "static/css/main.9e2406ba.chunk.css",
+    "static/js/main.20420baf.chunk.js"
   ]
 }
